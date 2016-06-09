@@ -1,0 +1,24 @@
+html.party{
+  position:relative;
+  overflow:hidden;
+  animation: party 2s;
+}
+@keyframes party{
+  0%{
+    transform:rotate(0deg);
+    background-color:red;
+  }
+  25%{
+    background-color:lime;
+  }
+  50%{
+    background-color:blue;
+  }
+  75%{
+    background-color:yellow;
+  }
+  100%{
+    background-color:white;
+    transform:rotate(360deg);
+  }
+}
